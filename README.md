@@ -6,3 +6,5 @@ To clone this repo:
 To update:
     
     git pull
+
+Bitlink for this repo: [https://bit.ly/ghctctr](https://bit.ly/ghctctr)
