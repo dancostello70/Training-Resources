@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<birds>
+  <order name="Passeriformes" common_name="Passerines (Perching Birds)">
+    <family name="Corvidae" common_name="Crows and Jays">
+      <species>
+        <common_name>American Crow</common_name>
+        <scientific_name>Corvus brachyrhynchos</scientific_name>
+        <physical>
+          <length_cm>45</length_cm>
+          <wingspan_cm>93</wingspan_cm>
+          <weight_g>450</weight_g>
+          <coloration>
+            <color>black</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>North America</region>
+          </regions>
+          <biomes>
+            <biome>urban</biome>
+            <biome>forest</biome>
+            <biome>farmland</biome>
+          </biomes>
+        </habitat>
+        <diet type="omnivore">
+          <foods>
+            <food>insects</food>
+            <food>seeds</food>
+            <food>carrion</food>
+            <food>eggs</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+      <species>
+        <common_name>Blue Jay</common_name>
+        <scientific_name>Cyanocitta cristata</scientific_name>
+        <physical>
+          <length_cm>30</length_cm>
+          <wingspan_cm>43</wingspan_cm>
+          <weight_g>85</weight_g>
+          <coloration>
+            <color>blue</color>
+            <color>white</color>
+            <color>black</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>North America</region>
+          </regions>
+          <biomes>
+            <biome>deciduous forest</biome>
+            <biome>urban</biome>
+          </biomes>
+        </habitat>
+        <diet type="omnivore">
+          <foods>
+            <food>acorns</food>
+            <food>seeds</food>
+            <food>insects</food>
+            <food>nuts</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+    </family>
+    <family name="Turdidae" common_name="Thrushes">
+      <species>
+        <common_name>American Robin</common_name>
+        <scientific_name>Turdus migratorius</scientific_name>
+        <physical>
+          <length_cm>25</length_cm>
+          <wingspan_cm>36</wingspan_cm>
+          <weight_g>77</weight_g>
+          <coloration>
+            <color>orange</color>
+            <color>gray</color>
+            <color>brown</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>North America</region>
+          </regions>
+          <biomes>
+            <biome>gardens</biome>
+            <biome>woodlands</biome>
+            <biome>urban</biome>
+          </biomes>
+        </habitat>
+        <diet type="omnivore">
+          <foods>
+            <food>earthworms</food>
+            <food>insects</food>
+            <food>fruit</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+    </family>
+    <family name="Paridae" common_name="Tits and Chickadees">
+      <species>
+        <common_name>Black-capped Chickadee</common_name>
+        <scientific_name>Poecile atricapillus</scientific_name>
+        <physical>
+          <length_cm>13</length_cm>
+          <wingspan_cm>20</wingspan_cm>
+          <weight_g>11</weight_g>
+          <coloration>
+            <color>black</color>
+            <color>white</color>
+            <color>gray</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>North America</region>
+          </regions>
+          <biomes>
+            <biome>deciduous forest</biome>
+            <biome>mixed forest</biome>
+          </biomes>
+        </habitat>
+        <diet type="omnivore">
+          <foods>
+            <food>seeds</food>
+            <food>insects</food>
+            <food>berries</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+    </family>
+  </order>
+  <order name="Accipitriformes" common_name="Diurnal Birds of Prey">
+    <family name="Accipitridae" common_name="Hawks and Eagles">
+      <species>
+        <common_name>Bald Eagle</common_name>
+        <scientific_name>Haliaeetus leucocephalus</scientific_name>
+        <physical>
+          <length_cm>90</length_cm>
+          <wingspan_cm>220</wingspan_cm>
+          <weight_g>5000</weight_g>
+          <coloration>
+            <color>brown</color>
+            <color>white (head)</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>North America</region>
+          </regions>
+          <biomes>
+            <biome>coastal</biome>
+            <biome>rivers</biome>
+            <biome>lakes</biome>
+          </biomes>
+        </habitat>
+        <diet type="carnivore">
+          <foods>
+            <food>fish</food>
+            <food>small mammals</food>
+            <food>carrion</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+    </family>
+  </order>
+  <order name="Sphenisciformes" common_name="Penguins">
+    <family name="Spheniscidae" common_name="Penguins">
+      <species>
+        <common_name>Emperor Penguin</common_name>
+        <scientific_name>Aptenodytes forsteri</scientific_name>
+        <physical>
+          <length_cm>120</length_cm>
+          <wingspan_cm></wingspan_cm>
+          <weight_g>30000</weight_g>
+          <coloration>
+            <color>black</color>
+            <color>white</color>
+            <color>yellow</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>Antarctica</region>
+          </regions>
+          <biomes>
+            <biome>ice shelves</biome>
+            <biome>ocean</biome>
+          </biomes>
+        </habitat>
+        <diet type="carnivore">
+          <foods>
+            <food>fish</food>
+            <food>krill</food>
+            <food>squid</food>
+          </foods>
+        </diet>
+        <conservation_status>Near Threatened</conservation_status>
+      </species>
+      <species>
+        <common_name>Gentoo Penguin</common_name>
+        <scientific_name>Pygoscelis papua</scientific_name>
+        <physical>
+          <length_cm>75</length_cm>
+          <wingspan_cm></wingspan_cm>
+          <weight_g>5500</weight_g>
+          <coloration>
+            <color>black</color>
+            <color>white</color>
+            <color>orange (bill)</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>Antarctica</region>
+            <region>sub-Antarctic islands</region>
+          </regions>
+          <biomes>
+            <biome>rocky coasts</biome>
+            <biome>ocean</biome>
+          </biomes>
+        </habitat>
+        <diet type="carnivore">
+          <foods>
+            <food>krill</food>
+            <food>fish</food>
+            <food>squid</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+    </family>
+  </order>
+  <order name="Psittaciformes" common_name="Parrots">
+    <family name="Psittacidae" common_name="Parrots">
+      <species>
+        <common_name>Scarlet Macaw</common_name>
+        <scientific_name>Ara macao</scientific_name>
+        <physical>
+          <length_cm>85</length_cm>
+          <wingspan_cm>110</wingspan_cm>
+          <weight_g>1000</weight_g>
+          <coloration>
+            <color>red</color>
+            <color>yellow</color>
+            <color>blue</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>Central America</region>
+            <region>South America</region>
+          </regions>
+          <biomes>
+            <biome>tropical rainforest</biome>
+          </biomes>
+        </habitat>
+        <diet type="herbivore">
+          <foods>
+            <food>nuts</food>
+            <food>seeds</food>
+            <food>fruit</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+      <species>
+        <common_name>African Grey Parrot</common_name>
+        <scientific_name>Psittacus erithacus</scientific_name>
+        <physical>
+          <length_cm>33</length_cm>
+          <wingspan_cm>65</wingspan_cm>
+          <weight_g>400</weight_g>
+          <coloration>
+            <color>gray</color>
+            <color>red (tail)</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>West and Central Africa</region>
+          </regions>
+          <biomes>
+            <biome>tropical rainforest</biome>
+          </biomes>
+        </habitat>
+        <diet type="herbivore">
+          <foods>
+            <food>seeds</food>
+            <food>nuts</food>
+            <food>fruit</food>
+          </foods>
+        </diet>
+        <conservation_status>Endangered</conservation_status>
+      </species>
+    </family>
+  </order>
+  <order name="Strigiformes" common_name="Owls">
+    <family name="Strigidae" common_name="True Owls">
+      <species>
+        <common_name>Great Horned Owl</common_name>
+        <scientific_name>Bubo virginianus</scientific_name>
+        <physical>
+          <length_cm>55</length_cm>
+          <wingspan_cm>140</wingspan_cm>
+          <weight_g>1400</weight_g>
+          <coloration>
+            <color>brown</color>
+            <color>gray</color>
+            <color>white</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>Americas</region>
+          </regions>
+          <biomes>
+            <biome>forest</biome>
+            <biome>desert</biome>
+            <biome>urban</biome>
+          </biomes>
+        </habitat>
+        <diet type="carnivore">
+          <foods>
+            <food>rodents</food>
+            <food>rabbits</food>
+            <food>birds</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+      <species>
+        <common_name>Snowy Owl</common_name>
+        <scientific_name>Bubo scandiacus</scientific_name>
+        <physical>
+          <length_cm>65</length_cm>
+          <wingspan_cm>150</wingspan_cm>
+          <weight_g>2000</weight_g>
+          <coloration>
+            <color>white</color>
+            <color>black (spots)</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>Arctic</region>
+          </regions>
+          <biomes>
+            <biome>tundra</biome>
+          </biomes>
+        </habitat>
+        <diet type="carnivore">
+          <foods>
+            <food>lemmings</food>
+            <food>hares</food>
+            <food>birds</food>
+          </foods>
+        </diet>
+        <conservation_status>Vulnerable</conservation_status>
+      </species>
+    </family>
+  </order>
+  <order name="Struthioniformes" common_name="Ostriches">
+    <family name="Struthionidae" common_name="Ostriches">
+      <species>
+        <common_name>Common Ostrich</common_name>
+        <scientific_name>Struthio camelus</scientific_name>
+        <physical>
+          <length_cm>250</length_cm>
+          <wingspan_cm></wingspan_cm>
+          <weight_g>115000</weight_g>
+          <coloration>
+            <color>black</color>
+            <color>white</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>Africa</region>
+          </regions>
+          <biomes>
+            <biome>savanna</biome>
+            <biome>desert</biome>
+          </biomes>
+        </habitat>
+        <diet type="omnivore">
+          <foods>
+            <food>plants</food>
+            <food>seeds</food>
+            <food>insects</food>
+            <food>small reptiles</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+    </family>
+  </order>
+  <order name="Apodiformes" common_name="Swifts and Hummingbirds">
+    <family name="Trochilidae" common_name="Hummingbirds">
+      <species>
+        <common_name>Ruby-throated Hummingbird</common_name>
+        <scientific_name>Archilochus colubris</scientific_name>
+        <physical>
+          <length_cm>9</length_cm>
+          <wingspan_cm>11</wingspan_cm>
+          <weight_g>3.4</weight_g>
+          <coloration>
+            <color>green</color>
+            <color>red (throat)</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>North America</region>
+          </regions>
+          <biomes>
+            <biome>gardens</biome>
+            <biome>woodland edges</biome>
+          </biomes>
+        </habitat>
+        <diet type="nectarivore">
+          <foods>
+            <food>nectar</food>
+            <food>small insects</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+    </family>
+  </order>
+  <order name="Pelecaniformes" common_name="Pelicans and Herons">
+    <family name="Pelecanidae" common_name="Pelicans">
+      <species>
+        <common_name>Brown Pelican</common_name>
+        <scientific_name>Pelecanus occidentalis</scientific_name>
+        <physical>
+          <length_cm>130</length_cm>
+          <wingspan_cm>220</wingspan_cm>
+          <weight_g>3600</weight_g>
+          <coloration>
+            <color>brown</color>
+            <color>gray</color>
+            <color>white (head)</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>Americas</region>
+          </regions>
+          <biomes>
+            <biome>coastal</biome>
+          </biomes>
+        </habitat>
+        <diet type="carnivore">
+          <foods>
+            <food>fish</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+    </family>
+    <family name="Ardeidae" common_name="Herons and Egrets">
+      <species>
+        <common_name>Great Blue Heron</common_name>
+        <scientific_name>Ardea herodias</scientific_name>
+        <physical>
+          <length_cm>130</length_cm>
+          <wingspan_cm>195</wingspan_cm>
+          <weight_g>2300</weight_g>
+          <coloration>
+            <color>blue-gray</color>
+            <color>white</color>
+            <color>black</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>North America</region>
+            <region>Central America</region>
+          </regions>
+          <biomes>
+            <biome>wetlands</biome>
+            <biome>shorelines</biome>
+          </biomes>
+        </habitat>
+        <diet type="carnivore">
+          <foods>
+            <food>fish</food>
+            <food>amphibians</food>
+            <food>small mammals</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+    </family>
+  </order>
+  <order name="Galliformes" common_name="Fowl">
+    <family name="Phasianidae" common_name="Pheasants, Peafowl, and allies">
+      <species>
+        <common_name>Indian Peafowl</common_name>
+        <scientific_name>Pavo cristatus</scientific_name>
+        <physical>
+          <length_cm>200</length_cm>
+          <wingspan_cm>150</wingspan_cm>
+          <weight_g>5000</weight_g>
+          <coloration>
+            <color>blue</color>
+            <color>green</color>
+            <color>iridescent</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>South Asia</region>
+          </regions>
+          <biomes>
+            <biome>forest</biome>
+            <biome>farmland</biome>
+          </biomes>
+        </habitat>
+        <diet type="omnivore">
+          <foods>
+            <food>seeds</food>
+            <food>insects</food>
+            <food>small reptiles</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+      <species>
+        <common_name>Wild Turkey</common_name>
+        <scientific_name>Meleagris gallopavo</scientific_name>
+        <physical>
+          <length_cm>110</length_cm>
+          <wingspan_cm>150</wingspan_cm>
+          <weight_g>8000</weight_g>
+          <coloration>
+            <color>bronze</color>
+            <color>brown</color>
+            <color>iridescent</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>North America</region>
+          </regions>
+          <biomes>
+            <biome>forest</biome>
+            <biome>grassland</biome>
+          </biomes>
+        </habitat>
+        <diet type="omnivore">
+          <foods>
+            <food>seeds</food>
+            <food>nuts</food>
+            <food>insects</food>
+            <food>berries</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+    </family>
+  </order>
+  <order name="Charadriiformes" common_name="Shorebirds and Gulls">
+    <family name="Laridae" common_name="Gulls">
+      <species>
+        <common_name>Herring Gull</common_name>
+        <scientific_name>Larus argentatus</scientific_name>
+        <physical>
+          <length_cm>60</length_cm>
+          <wingspan_cm>140</wingspan_cm>
+          <weight_g>1100</weight_g>
+          <coloration>
+            <color>white</color>
+            <color>gray</color>
+            <color>black (wingtips)</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>North America</region>
+            <region>Europe</region>
+          </regions>
+          <biomes>
+            <biome>coastal</biome>
+            <biome>urban</biome>
+          </biomes>
+        </habitat>
+        <diet type="omnivore">
+          <foods>
+            <food>fish</food>
+            <food>insects</food>
+            <food>human food scraps</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+    </family>
+  </order>
+  <order name="Coraciiformes" common_name="Kingfishers and allies">
+    <family name="Alcedinidae" common_name="Kingfishers">
+      <species>
+        <common_name>Belted Kingfisher</common_name>
+        <scientific_name>Megaceryle alcyon</scientific_name>
+        <physical>
+          <length_cm>33</length_cm>
+          <wingspan_cm>56</wingspan_cm>
+          <weight_g>148</weight_g>
+          <coloration>
+            <color>blue-gray</color>
+            <color>white</color>
+            <color>rust</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>North America</region>
+          </regions>
+          <biomes>
+            <biome>rivers</biome>
+            <biome>lakes</biome>
+            <biome>coastal</biome>
+          </biomes>
+        </habitat>
+        <diet type="carnivore">
+          <foods>
+            <food>fish</food>
+            <food>crustaceans</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+    </family>
+  </order>
+  <order name="Columbiformes" common_name="Pigeons and Doves">
+    <family name="Columbidae" common_name="Pigeons and Doves">
+      <species>
+        <common_name>Rock Pigeon</common_name>
+        <scientific_name>Columba livia</scientific_name>
+        <physical>
+          <length_cm>32</length_cm>
+          <wingspan_cm>63</wingspan_cm>
+          <weight_g>300</weight_g>
+          <coloration>
+            <color>gray</color>
+            <color>iridescent (neck)</color>
+          </coloration>
+        </physical>
+        <habitat>
+          <regions>
+            <region>Worldwide</region>
+          </regions>
+          <biomes>
+            <biome>urban</biome>
+            <biome>cliffs</biome>
+          </biomes>
+        </habitat>
+        <diet type="herbivore">
+          <foods>
+            <food>seeds</food>
+            <food>grains</food>
+            <food>urban scraps</food>
+          </foods>
+        </diet>
+        <conservation_status>Least Concern</conservation_status>
+      </species>
+    </family>
+  </order>
+</birds>

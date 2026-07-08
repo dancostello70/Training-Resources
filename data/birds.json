@@ -1,0 +1,519 @@
+{
+  "birds": {
+    "Passeriformes": {
+      "common_name": "Passerines (Perching Birds)",
+      "families": {
+        "Corvidae": {
+          "common_name": "Crows and Jays",
+          "species": [
+            {
+              "common_name": "American Crow",
+              "scientific_name": "Corvus brachyrhynchos",
+              "physical": {
+                "length_cm": 45,
+                "wingspan_cm": 93,
+                "weight_g": 450,
+                "coloration": ["black"]
+              },
+              "habitat": {
+                "regions": ["North America"],
+                "biome": ["urban", "forest", "farmland"]
+              },
+              "diet": {
+                "type": "omnivore",
+                "foods": ["insects", "seeds", "carrion", "eggs"]
+              },
+              "conservation_status": "Least Concern"
+            },
+            {
+              "common_name": "Blue Jay",
+              "scientific_name": "Cyanocitta cristata",
+              "physical": {
+                "length_cm": 30,
+                "wingspan_cm": 43,
+                "weight_g": 85,
+                "coloration": ["blue", "white", "black"]
+              },
+              "habitat": {
+                "regions": ["North America"],
+                "biome": ["deciduous forest", "urban"]
+              },
+              "diet": {
+                "type": "omnivore",
+                "foods": ["acorns", "seeds", "insects", "nuts"]
+              },
+              "conservation_status": "Least Concern"
+            }
+          ]
+        },
+        "Turdidae": {
+          "common_name": "Thrushes",
+          "species": [
+            {
+              "common_name": "American Robin",
+              "scientific_name": "Turdus migratorius",
+              "physical": {
+                "length_cm": 25,
+                "wingspan_cm": 36,
+                "weight_g": 77,
+                "coloration": ["orange", "gray", "brown"]
+              },
+              "habitat": {
+                "regions": ["North America"],
+                "biome": ["gardens", "woodlands", "urban"]
+              },
+              "diet": {
+                "type": "omnivore",
+                "foods": ["earthworms", "insects", "fruit"]
+              },
+              "conservation_status": "Least Concern"
+            }
+          ]
+        },
+        "Paridae": {
+          "common_name": "Tits and Chickadees",
+          "species": [
+            {
+              "common_name": "Black-capped Chickadee",
+              "scientific_name": "Poecile atricapillus",
+              "physical": {
+                "length_cm": 13,
+                "wingspan_cm": 20,
+                "weight_g": 11,
+                "coloration": ["black", "white", "gray"]
+              },
+              "habitat": {
+                "regions": ["North America"],
+                "biome": ["deciduous forest", "mixed forest"]
+              },
+              "diet": {
+                "type": "omnivore",
+                "foods": ["seeds", "insects", "berries"]
+              },
+              "conservation_status": "Least Concern"
+            }
+          ]
+        }
+      }
+    },
+    "Accipitriformes": {
+      "common_name": "Diurnal Birds of Prey",
+      "families": {
+        "Accipitridae": {
+          "common_name": "Hawks and Eagles",
+          "species": [
+            {
+              "common_name": "Bald Eagle",
+              "scientific_name": "Haliaeetus leucocephalus",
+              "physical": {
+                "length_cm": 90,
+                "wingspan_cm": 220,
+                "weight_g": 5000,
+                "coloration": ["brown", "white (head)"]
+              },
+              "habitat": {
+                "regions": ["North America"],
+                "biome": ["coastal", "rivers", "lakes"]
+              },
+              "diet": {
+                "type": "carnivore",
+                "foods": ["fish", "small mammals", "carrion"]
+              },
+              "conservation_status": "Least Concern"
+            }
+          ]
+        }
+      }
+    },
+    "Sphenisciformes": {
+      "common_name": "Penguins",
+      "families": {
+        "Spheniscidae": {
+          "common_name": "Penguins",
+          "species": [
+            {
+              "common_name": "Emperor Penguin",
+              "scientific_name": "Aptenodytes forsteri",
+              "physical": {
+                "length_cm": 120,
+                "wingspan_cm": null,
+                "weight_g": 30000,
+                "coloration": ["black", "white", "yellow"]
+              },
+              "habitat": {
+                "regions": ["Antarctica"],
+                "biome": ["ice shelves", "ocean"]
+              },
+              "diet": {
+                "type": "carnivore",
+                "foods": ["fish", "krill", "squid"]
+              },
+              "conservation_status": "Near Threatened"
+            },
+            {
+              "common_name": "Gentoo Penguin",
+              "scientific_name": "Pygoscelis papua",
+              "physical": {
+                "length_cm": 75,
+                "wingspan_cm": null,
+                "weight_g": 5500,
+                "coloration": ["black", "white", "orange (bill)"]
+              },
+              "habitat": {
+                "regions": ["Antarctica", "sub-Antarctic islands"],
+                "biome": ["rocky coasts", "ocean"]
+              },
+              "diet": {
+                "type": "carnivore",
+                "foods": ["krill", "fish", "squid"]
+              },
+              "conservation_status": "Least Concern"
+            }
+          ]
+        }
+      }
+    },
+    "Psittaciformes": {
+      "common_name": "Parrots",
+      "families": {
+        "Psittacidae": {
+          "common_name": "Parrots",
+          "species": [
+            {
+              "common_name": "Scarlet Macaw",
+              "scientific_name": "Ara macao",
+              "physical": {
+                "length_cm": 85,
+                "wingspan_cm": 110,
+                "weight_g": 1000,
+                "coloration": ["red", "yellow", "blue"]
+              },
+              "habitat": {
+                "regions": ["Central America", "South America"],
+                "biome": ["tropical rainforest"]
+              },
+              "diet": {
+                "type": "herbivore",
+                "foods": ["nuts", "seeds", "fruit"]
+              },
+              "conservation_status": "Least Concern"
+            },
+            {
+              "common_name": "African Grey Parrot",
+              "scientific_name": "Psittacus erithacus",
+              "physical": {
+                "length_cm": 33,
+                "wingspan_cm": 65,
+                "weight_g": 400,
+                "coloration": ["gray", "red (tail)"]
+              },
+              "habitat": {
+                "regions": ["West and Central Africa"],
+                "biome": ["tropical rainforest"]
+              },
+              "diet": {
+                "type": "herbivore",
+                "foods": ["seeds", "nuts", "fruit"]
+              },
+              "conservation_status": "Endangered"
+            }
+          ]
+        }
+      }
+    },
+    "Strigiformes": {
+      "common_name": "Owls",
+      "families": {
+        "Strigidae": {
+          "common_name": "True Owls",
+          "species": [
+            {
+              "common_name": "Great Horned Owl",
+              "scientific_name": "Bubo virginianus",
+              "physical": {
+                "length_cm": 55,
+                "wingspan_cm": 140,
+                "weight_g": 1400,
+                "coloration": ["brown", "gray", "white"]
+              },
+              "habitat": {
+                "regions": ["Americas"],
+                "biome": ["forest", "desert", "urban"]
+              },
+              "diet": {
+                "type": "carnivore",
+                "foods": ["rodents", "rabbits", "birds"]
+              },
+              "conservation_status": "Least Concern"
+            },
+            {
+              "common_name": "Snowy Owl",
+              "scientific_name": "Bubo scandiacus",
+              "physical": {
+                "length_cm": 65,
+                "wingspan_cm": 150,
+                "weight_g": 2000,
+                "coloration": ["white", "black (spots)"]
+              },
+              "habitat": {
+                "regions": ["Arctic"],
+                "biome": ["tundra"]
+              },
+              "diet": {
+                "type": "carnivore",
+                "foods": ["lemmings", "hares", "birds"]
+              },
+              "conservation_status": "Vulnerable"
+            }
+          ]
+        }
+      }
+    },
+    "Struthioniformes": {
+      "common_name": "Ostriches",
+      "families": {
+        "Struthionidae": {
+          "common_name": "Ostriches",
+          "species": [
+            {
+              "common_name": "Common Ostrich",
+              "scientific_name": "Struthio camelus",
+              "physical": {
+                "length_cm": 250,
+                "wingspan_cm": null,
+                "weight_g": 115000,
+                "coloration": ["black", "white"]
+              },
+              "habitat": {
+                "regions": ["Africa"],
+                "biome": ["savanna", "desert"]
+              },
+              "diet": {
+                "type": "omnivore",
+                "foods": ["plants", "seeds", "insects", "small reptiles"]
+              },
+              "conservation_status": "Least Concern"
+            }
+          ]
+        }
+      }
+    },
+    "Apodiformes": {
+      "common_name": "Swifts and Hummingbirds",
+      "families": {
+        "Trochilidae": {
+          "common_name": "Hummingbirds",
+          "species": [
+            {
+              "common_name": "Ruby-throated Hummingbird",
+              "scientific_name": "Archilochus colubris",
+              "physical": {
+                "length_cm": 9,
+                "wingspan_cm": 11,
+                "weight_g": 3.4,
+                "coloration": ["green", "red (throat)"]
+              },
+              "habitat": {
+                "regions": ["North America"],
+                "biome": ["gardens", "woodland edges"]
+              },
+              "diet": {
+                "type": "nectarivore",
+                "foods": ["nectar", "small insects"]
+              },
+              "conservation_status": "Least Concern"
+            }
+          ]
+        }
+      }
+    },
+    "Pelecaniformes": {
+      "common_name": "Pelicans and Herons",
+      "families": {
+        "Pelecanidae": {
+          "common_name": "Pelicans",
+          "species": [
+            {
+              "common_name": "Brown Pelican",
+              "scientific_name": "Pelecanus occidentalis",
+              "physical": {
+                "length_cm": 130,
+                "wingspan_cm": 220,
+                "weight_g": 3600,
+                "coloration": ["brown", "gray", "white (head)"]
+              },
+              "habitat": {
+                "regions": ["Americas"],
+                "biome": ["coastal"]
+              },
+              "diet": {
+                "type": "carnivore",
+                "foods": ["fish"]
+              },
+              "conservation_status": "Least Concern"
+            }
+          ]
+        },
+        "Ardeidae": {
+          "common_name": "Herons and Egrets",
+          "species": [
+            {
+              "common_name": "Great Blue Heron",
+              "scientific_name": "Ardea herodias",
+              "physical": {
+                "length_cm": 130,
+                "wingspan_cm": 195,
+                "weight_g": 2300,
+                "coloration": ["blue-gray", "white", "black"]
+              },
+              "habitat": {
+                "regions": ["North America", "Central America"],
+                "biome": ["wetlands", "shorelines"]
+              },
+              "diet": {
+                "type": "carnivore",
+                "foods": ["fish", "amphibians", "small mammals"]
+              },
+              "conservation_status": "Least Concern"
+            }
+          ]
+        }
+      }
+    },
+    "Galliformes": {
+      "common_name": "Fowl",
+      "families": {
+        "Phasianidae": {
+          "common_name": "Pheasants, Peafowl, and allies",
+          "species": [
+            {
+              "common_name": "Indian Peafowl",
+              "scientific_name": "Pavo cristatus",
+              "physical": {
+                "length_cm": 200,
+                "wingspan_cm": 150,
+                "weight_g": 5000,
+                "coloration": ["blue", "green", "iridescent"]
+              },
+              "habitat": {
+                "regions": ["South Asia"],
+                "biome": ["forest", "farmland"]
+              },
+              "diet": {
+                "type": "omnivore",
+                "foods": ["seeds", "insects", "small reptiles"]
+              },
+              "conservation_status": "Least Concern"
+            },
+            {
+              "common_name": "Wild Turkey",
+              "scientific_name": "Meleagris gallopavo",
+              "physical": {
+                "length_cm": 110,
+                "wingspan_cm": 150,
+                "weight_g": 8000,
+                "coloration": ["bronze", "brown", "iridescent"]
+              },
+              "habitat": {
+                "regions": ["North America"],
+                "biome": ["forest", "grassland"]
+              },
+              "diet": {
+                "type": "omnivore",
+                "foods": ["seeds", "nuts", "insects", "berries"]
+              },
+              "conservation_status": "Least Concern"
+            }
+          ]
+        }
+      }
+    },
+    "Charadriiformes": {
+      "common_name": "Shorebirds and Gulls",
+      "families": {
+        "Laridae": {
+          "common_name": "Gulls",
+          "species": [
+            {
+              "common_name": "Herring Gull",
+              "scientific_name": "Larus argentatus",
+              "physical": {
+                "length_cm": 60,
+                "wingspan_cm": 140,
+                "weight_g": 1100,
+                "coloration": ["white", "gray", "black (wingtips)"]
+              },
+              "habitat": {
+                "regions": ["North America", "Europe"],
+                "biome": ["coastal", "urban"]
+              },
+              "diet": {
+                "type": "omnivore",
+                "foods": ["fish", "insects", "human food scraps"]
+              },
+              "conservation_status": "Least Concern"
+            }
+          ]
+        }
+      }
+    },
+    "Coraciiformes": {
+      "common_name": "Kingfishers and allies",
+      "families": {
+        "Alcedinidae": {
+          "common_name": "Kingfishers",
+          "species": [
+            {
+              "common_name": "Belted Kingfisher",
+              "scientific_name": "Megaceryle alcyon",
+              "physical": {
+                "length_cm": 33,
+                "wingspan_cm": 56,
+                "weight_g": 148,
+                "coloration": ["blue-gray", "white", "rust"]
+              },
+              "habitat": {
+                "regions": ["North America"],
+                "biome": ["rivers", "lakes", "coastal"]
+              },
+              "diet": {
+                "type": "carnivore",
+                "foods": ["fish", "crustaceans"]
+              },
+              "conservation_status": "Least Concern"
+            }
+          ]
+        }
+      }
+    },
+    "Columbiformes": {
+      "common_name": "Pigeons and Doves",
+      "families": {
+        "Columbidae": {
+          "common_name": "Pigeons and Doves",
+          "species": [
+            {
+              "common_name": "Rock Pigeon",
+              "scientific_name": "Columba livia",
+              "physical": {
+                "length_cm": 32,
+                "wingspan_cm": 63,
+                "weight_g": 300,
+                "coloration": ["gray", "iridescent (neck)"]
+              },
+              "habitat": {
+                "regions": ["Worldwide"],
+                "biome": ["urban", "cliffs"]
+              },
+              "diet": {
+                "type": "herbivore",
+                "foods": ["seeds", "grains", "urban scraps"]
+              },
+              "conservation_status": "Least Concern"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
